@@ -1,0 +1,19 @@
+# Data paths
+data_path: "example_data/example_data.jsonl"
+output_path: "example_data/example_math_problem_processed.jsonl"
+log_file: "logs/preprocessing.log"
+
+# Deduplication parameters
+deduplicate_threshold: 0.8
+deduplicate_ngram_n: 3
+num_perm: 128
+
+# Text normalization parameters
+remove_stopwords: true
+remove_extra_whitespace: true
+remove_special_chars: true
+normalize_unicode: true
+lowercase: true
+
+# Other preprocessing options
+# remove_coding_questions: false 
