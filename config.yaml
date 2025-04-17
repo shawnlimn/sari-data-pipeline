@@ -1,12 +1,12 @@
 # Data paths
 data_path: "example_data/example_data.jsonl"
 output_path: "example_data/example_math_problem_processed.jsonl"
-log_file: "logs/preprocessing.log"
+log_file: "logs/preprocessing_test.log"
 
 # Deduplication parameters
 deduplicate_threshold: 0.8
 deduplicate_ngram_n: 3
-num_perm: 128
+num_perm: 256
 
 # Text normalization parameters
 remove_stopwords: true

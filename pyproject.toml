@@ -3,10 +3,13 @@ name = "sari-data-pipeline"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.10"
 dependencies = [
+    "datasets>=3.5.0",
     "datasketch>=1.6.5",
     "ipykernel>=6.29.5",
+    "lingua-language-detector>=2.0.2",
+    "matplotlib>=3.9.4",
     "nltk>=3.9.1",
     "pandas>=2.2.3",
     "pydantic>=2.11.3",

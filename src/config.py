@@ -15,7 +15,7 @@ class Config:
             # Deduplication parameters
             "deduplicate_threshold": 0.8,
             "deduplicate_ngram_n": 3,
-            "num_perm": 128,
+            "num_perm": 256,
             # Text normalization parameters
             "remove_stopwords": True,
             "remove_extra_whitespace": True,
@@ -67,4 +67,3 @@ class Config:
                 raise ValueError(f"Unsupported config file format: {file_path.suffix}")
 
         return cls(config_dict)
-
